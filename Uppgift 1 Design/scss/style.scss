@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body {
+    height: auto;
+    background-image: url(../bg/bg-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+h1 {
+    font-size: 3rem;
+}
+
+
+#forms {
+    // width: 500px;
+    background-color: rgba(128, 128, 128, 0.596);
+    border-radius: 0.6rem;
+
+    #form-info {
+        height: 20rem;
+        width: 100%;
+        position: relative;
+        background-image: url(/images/form-info-bg-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(35%);
+        
+        h3 {
+            padding: 0;
+            position: absolute;
+            bottom: 0;
+            padding-bottom: 5rem;
+            padding-left: 1rem;
+            font-size: 1.4rem;
+        }
+        p {
+            padding: 0;
+            position: absolute;
+            bottom: 0;
+            padding-left: 1rem;
+
+        }
+    }
+    
+}
+
+
+
+.listitems {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+#errorfirstname {
+    font-size: 0.8rem;
+    color: red;
+}
+#errorlastname {
+    font-size: 0.8rem;
+    color: red;
+}
+#errormail {
+    font-size: 0.8rem;
+    color: red;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../bg/bg-desktop.jpg);
+    
+    }
+    
+    h1 {
+        font-size: 4rem;
+    }
+
+
+    #form-info {
+        background-image: url(/images/form-info-bg-desktop.jpg);
+    }
+    
+
+
+    #holder {
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    
+    }
+    
+    #forms {
+        width: 500px;
+
+        // #form-info {
+
+        // }
+    }
+    #lists {
+        width: 550px;
+    }
+
+    #errorfirstname {
+        font-size: 1rem;
+        font-weight: bold;
+        color: red;
+    }
+    #errorlastname {
+        font-size: 1rem;
+        font-weight: bold;
+        color: red;
+    }
+    #errormail {
+        font-size: 1rem;
+        font-weight: bold;
+        color: red;
+    }
+
+}
