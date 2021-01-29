@@ -176,13 +176,13 @@ function checkInputsEmail() {
     else if (emailValue == '') {
         email.classList.add('is-invalid');
         errormail.innerHTML = `You need to enter an valid email`;
-        // input.focus();
+        input.focus();
     }
 
     else {
         email.classList.add('is-invalid');
         errormail.innerHTML = `Must enter an valid email: simple@example.com`;
-        // input.focus();
+        input.focus();
     }
 
    return sucsess

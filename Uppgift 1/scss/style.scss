@@ -26,7 +26,7 @@ h1 {
         height: 20rem;
         width: 100%;
         position: relative;
-        background-image: url(/images/form-info-bg-mobile.jpg);
+        background-image: url(../images/form-info-bg-mobile.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -82,19 +82,15 @@ h1 {
 
 
     #form-info {
-        background-image: url(/images/form-info-bg-desktop.jpg);
+        background-image: url(../images/form-info-bg-desktop.jpg);
     }
     
-
-
     #holder {
         height: 80vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-
-    
     }
     
     #forms {
